@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>valueAsNumber 属性使用示例</title>
+</head>
+<body>
+<script>
+    function sum() {
+        var number1=document.getElementById("number1").valueAsNumber;
+        var number2=document.getElementById("number2").valueAsNumber;
+        document.getElementById("result").valueAsNumber=number1+number2;
+    }
+</script>
+<form>
+    <input type="number" id="number1"> +
+    <input type="number" id="number2"> =
+    <input type="number" id="result" readonly>
+    <input type="button" value="计算" onclick="sum();">
+</form>
+</body>
+</html>
