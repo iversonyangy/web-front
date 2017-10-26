@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除对象的属性</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var myDate = {
+            name: "Yangy",
+            weather: "sunny",
+        };
+
+        myDate.sayHello = function () {
+            document.writeln("Hello");
+        }
+
+        delete myDate.name;
+        delete myDate["weather"];
+        delete myDate.sayHello;
+    </script>
+</body>
+</html>

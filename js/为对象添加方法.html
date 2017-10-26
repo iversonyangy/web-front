@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>为对象添加方法</title>
+<!--此例将一个函数变成了一个名为printMessages 的方法。在方法内部使用对象属性的时候用到this关键字，
+函数作为方法使用的时候，其所属性对象会以关键字this的形式作为一个参数被传给他。-->
+</head>
+<body>
+    <script type="text/javascript">
+        var myDate = {
+            name: "Adam",
+            weather: "sunny",
+            printMessages: function () {
+                document.writeln("Hello " + this.name + ".");
+                document.writeln("Today is " + this.weather + ".");
+            }
+        };
+        myDate.printMessages();
+    </script>
+</body>
+</html>

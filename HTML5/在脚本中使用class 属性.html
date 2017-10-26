@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在脚本中使用class属性</title>
+</head>
+<body>
+    <a class="class1  class2" href="http://apress.com">Apress web site</a>
+    <p/>
+    <a class="class2 otherclass" href="http://w3c.org">W3C web school</a>
+
+    <script type="text/javascript">
+        var elem = document.getElementsByClassName("otherclass");
+        for (i = 0; i < elems.length; i++) {
+            var x =elems[i];
+            x.style.border = "thin soild black";
+            x.style.backgroundColor = "white";
+            x.style.color = "black";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>datalist元素的使用</title>
+    <!--<datalist> 标签定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
+datalist 及其选项不会被显示出来，它仅仅是合法的输入值列表。
+请使用 input 元素的 list 属性来绑定 datalist。-->
+</head>
+<body>
+    <form method="post" action="http://titan；8080、form">
+        <p>
+            <label for="name">
+                Name: <input placeholder="your name" id="name" name="name" />
+            </label>
+        </p>
+        <p>
+            <label for="city">
+                City: <input placeholder="where you live" id="city" name="city" />
+            </label>
+        </p>
+        <p>
+            <label for="fave">
+                Fruits: <input list="fruitlist" id="fave" name="fave"/>
+            </label>
+        </p>
+        <button type="submit">Submit Vote</button>
+    </form>
+
+    <datalist id="fruitlist">
+        <option value="Apples" label="Lovely Apples"/>
+        <option value="Oranges">Refreshing Oranges</option>
+        <option value="Cherries"/>
+    </datalist>
+</body>
+</html>

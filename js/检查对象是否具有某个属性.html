@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检查对象是否具有某个属性</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var myDate = {
+            name: "Yangy",
+            weather: "sunny",
+        };
+
+       var hasName = "name" in myDate;
+       var hasDate = "date" in myDate;
+       document.writeln("HasName: " + hasName + "<br/>");
+       document.writeln("HasDate: " + hasDate);
+
+    </script>
+
+</body>
+</html>

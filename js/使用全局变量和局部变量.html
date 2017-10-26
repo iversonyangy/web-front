@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>使用全局变量和局部变量</title>
+    <!--
+    定义在函数中的变量称为局部变量，只能在该函数范围内使用，直接在script 元素中
+定义的变量称为全局变量。可以在任何地方使用。
+    -->
+</head>
+<body>
+    <script type="text/javascript">
+        var myGlobalVar = "sunny";
+
+        function myFunc(name) {
+            var myLocalVar = "sunny";
+            return ("Hello " + name + ". Taday is " + myGlobalVar + ".");
+
+        };
+        document.writeln(myFunc("Adam"));
+    </script>
+    <script>
+        document.writeln("I like " + myGlobalVar + ".");
+    </script>
+</body>
+</html>

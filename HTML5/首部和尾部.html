@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用header和footer</title>
+    <style>
+        h1, h2, h3 { background: grey; color: white;}
+        hgroup > h1 { margin-bottom: 0; margin-top: 0}
+        hgroup > h2 { background: grey; white; font-size: 1em;
+                    margin-top: 0px; margin-bottom: 2px}
+
+        body > header *, body > footer * { background: transparent; color: black;}
+        body > section, body > section > section,
+        body > section > section > section {margin-left: 10px;}
+
+        body > header, body > footer {
+            border: medium solid black;padding-left: 5px; margin: 10px 0 10px 0;}
+    </style>
+</head>
+<body>
+     <header>
+         <hgroup>
+             <h1>Things I like</h1>
+             <h2>by Adam Freeman</h2>
+         </hgroup>
+     </header>
+     <section>
+         <header>
+             <hgroup>
+                 <h1>Fruits I like</h1>
+                 <h2>How I Leaen to Love Cruits</h2>
+             </hgroup>
+         </header>
+         I like apples and oranges.
+         <section>
+             <h1>Additional fruits </h1>
+             I also like bananas, oranges, apricots, plums, peaches and grapes.
+             <section>
+                 <h1>More informations</h1>
+                 You can see other fruits I like <a href="checkValidity示例.html">here</a>.
+             </section>
+         </section>
+     </section>
+
+     <section>
+         <header>
+             <hgroup>
+                 <h1>Activites I like .</h1>
+             </hgroup>
+         </header>
+         <section>
+             <p>I like swim, Cycke and run. I am in training for my first triathlon
+             , but it is hard work.</p>
+             <h1>Kinds of Triathlon</h1>
+             There are different kinds of triathlon - sprit, Olympic and so on.
+             <section>
+                 <h1>The kind of triathlon I am arming for</h1>
+                 <ol>
+                     <li>1.5Km swim</li>
+                     <li>40Km cycle</li>
+                     <li>10Km run</li>
+                 </ol>
+             </section>
+         </section>
+     </section>
+
+     <footer id="mainfooter">
+         &#169;2017, Yangyong. <a href="列表.html">here</a>
+     </footer>
+</body>
+</html>

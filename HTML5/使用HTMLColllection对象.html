@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用HTMLColllection对象.html</title>
+    <meta name="author" content="yangyong">
+    <style>
+        pre {border: medium double black;}
+    </style>
+</head>
+<body>
+    <pre id="results"></pre>
+    <img  id="lemon" src="../starbuzz/drinks.gif" />
+    <p>
+        There are lots of different kinds of fruits - there are over 600 varirites
+        of banana alone.By the times we add the countless types of apples,
+        and other well-konwn fruits, we are faced with thousands of choices.
+    </p>
+    <img id="apple" src="../Starbuzz Coffee1/bag.gif" height="203" width="300"/>
+    <p>
+        One of the most interesting aspects of fruits is the varirty available in
+        each country. I live near London, in an area which is the konwn for
+        its apples.
+
+    </p>
+    <img id="banana" src="../starbuzz/drinks.gif" />
+    <script>
+        var resultsElement = document.getElementById("results");
+
+        var elems = document.images;
+        for (var i = 0; i < elems.length; i++){
+            resultsElement.innerHTML += "Image: " + elems[i].id + "\n";
+
+        }
+        var srcValue = elems.namedItem("apple").src;
+        resultsElement.innerHTML += "Src for apple element is: " + srcValue + "\n";
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用Number.toString方法</title>
+    <!--注意此例中先把数值放到括号中才能调用tostring 的方法。只是因为要想调用number类型定义的tostring
+    方法，必须先让JavaScript将字面量转换为一个number类型的值。
+    此例中还调用了另一种做法，即调用string函数并将要转换的值作为参数传递给他。
+    着两种做法都是将number类型的值转换为string类型，因此+这个运算符会被用来会被用来进行字符的
+   串联接而不是加法运算。-->
+</head>
+<body>
+  <script type="text/javascript">
+      var myData1 = (5).toString() + String(5);
+      document.writeln("Result: " + myData1);
+  </script>
+</body>
+</html>

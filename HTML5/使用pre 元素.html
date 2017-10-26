@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用pre 元素</title>
+    <!--
+  被包围在 pre 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。
+  -->
+    <style>
+        .favorites{
+            background: grey;
+            color: white;
+            border: thin solid black;
+        }
+    </style>
+</head>
+<body>
+    <pre><code>
+        var fruits = ["apples", "oranges" "mangeos", "cherries"];
+        for (var i = 0; i < fruits.length; i++){
+        document.wrienln("I like " + fruits[i]);
+        }
+    </code></pre>
+
+    <div class="favorites">
+
+        <p>I like apples and oranges.
+
+            I also like banana , mengoes, cherries, apricots, plums, peaches and grapes.
+            You can see other fruits I like <a href="valueAsNumber%20属性使用示例.html">here</a>.
+
+        </p>
+
+        <p>My favorite kind of orin, orange is the mandarin propeoly known
+        as <i>citus retiulata</i>.
+        Oranges at my local store <s>$1 each</s> $2 for 3.</p>
+    </div>
+</body>
+</html>
