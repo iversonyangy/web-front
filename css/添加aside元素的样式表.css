@@ -1,0 +1,22 @@
+h1, h2, h3, article > footer { background: grey; color: white; }
+hgroup > h1 {margin-bottom: 0; margin-top: 0;}
+hgroup > h2 {background: grey; color: white; font-size: 1em;
+    margin-top: 0px; margin-bottom: 2px}
+
+body > header  *, body > footer * {background: transparent; color: black;}
+
+article {border: thin black soild; padding: 10px;  margin-bottom:5px;}
+article > footer { padding:5px; margin: 5px; text-align: center}
+article > footer >nav > a {color: white}
+body > article > section,
+body > article > section > section {margin-left：10px;}
+body > header, body > footer {
+    border: medium soild black; padding-left: 5px; margin: 10px 0 10px 0;
+}
+body > nav {text-align: center; padding: 2px: border: dashed thin black;}
+body > nav > a {padding: 2px; color: black}
+
+aside { width:40%; background: white; float:right; border: thick soild black;
+    margin-left: 5px;}
+aside > section { padding: 5px;}
+aside > h1 {background: white; color: black; text-align: center}

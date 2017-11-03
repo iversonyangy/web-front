@@ -1,0 +1,13 @@
+    *{margin: 0;padding: 0;}
+    /*  "*"  为通配选择器 */
+    .clearfix:after, .clearfix:before{display: table;content: ""}
+    .clearfix:after{clear: both;overflow: hidden}
+    .demo { width: 250px; boeder: 1px soild #ccc; padding: 10px; margin: 20px auto}
+    li  {list-style: none outside none; float: left; height: 20px;
+         line-height: 20px; width: 20px;border-radius: 10px;
+         text-align: center; background: #f36; color: green; margin-right: 5px; }
+   /* .demo  *  {background: orange}  */
+    ul  {background: grey}
+    #first{background:lime; color:#000}
+    #last{background:#000;color:lime}
+

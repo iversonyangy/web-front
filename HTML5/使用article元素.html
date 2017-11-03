@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用article元素</title>
+    <!--article 元素代表HTML文档中的一段独立成篇的内容，从理论上讲，可以独立于页面其余内容发布或
+    使用。这不是说作者必须单独发布他，而是说判断是否使用钙元素师要以独立性为判断依据，-->
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Things I like</h1>
+            <h2>by Yangyong.</h2>
+        </hgroup>
+        <nav>
+            <h1>Contents</h1>
+            <ul>
+                <li><a href="#fruitsilike">Fruits I Like</a></li>
+                <li><a href="#activitiesilike">Activities I Like</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <article>
+        <header>
+            <hgroup>
+                <h1 id="fruitsilike">Fruits I Like</h1>
+                <h2>How I Learned to Love Citrus</h2>
+            </hgroup>
+        </header>
+        I like apples and oranges.
+        <section>
+            <h1 id="morefruits">Additional fruits</h1>
+            I also like bananas, mangoes, cherries, apricots, plums,
+            peaches and grapes.
+            <section>
+                <h1>More information</h1>
+                You can see other fruits I like <a href="fruitlist.html">here</a>
+            </section>
+        </section>
+        <footer>
+            <nav>
+                More Information
+                <a href="http://fruit.org">Learn More Fruit</a>
+            </nav>
+        </footer>
+    </article>
+
+
+    <article>
+        <header>
+            <hgroup>
+                <h1 id="activitiesilike">Activities I Like</h1>
+                <h2>It hurts, but I keep doing it.</h2>
+            </hgroup>
+        </header>
+        <section>
+            <p>I like to swim, cycle and run. I am in training for  ma first
+            trithlon, but it is hard work.</p>
+            <h1 id="tritypes">Kinds of Trithlon</h1>
+            There are different kinds of trithlon - sprint, Olympic and so on.
+            <section>
+                <h1 id="mytri">The kinds of trithlon I am aiming for</h1>
+                I am aiming for Olympic, which consists of the following:
+                <ol>
+                    <li>1.5Km swim</li>
+                    <li>40Km cycle</li>
+                    <li>10Km run</li>
+                </ol>
+            </section>
+        </section>
+        <footer>
+            <nav>
+                More Information:
+                <a href="http://trithlon.org">Learn More About Trithlon</a>
+            </nav>
+        </footer>
+    </article>
+
+
+    <footer id=mainFooter"">
+        &#169;2011, Yangyong. <a href="http://apress.com">Visit Apress</a>
+    </footer>
+</body>
+</html>

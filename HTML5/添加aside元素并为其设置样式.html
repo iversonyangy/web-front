@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加aside元素并为其设置样式</title>
+    <link rel="stylesheet" href="../css/添加aside元素的样式表.css">
+    <!--aside元素用来表示跟周边内容稍沾一点边的内容，类似与书籍或杂志中的侧栏。其内容与
+    页面其他内容、article或section有点关系，但并非主题内容的一部分。它可能是一些背景信息。-->
+</head>
+<body>
+   <header>
+       <hgroup>
+           <h1>Things I like</h1>
+           <h2>by Yangyong</h2>
+       </hgroup>
+       <nav>
+           <h1>Contents</h1>
+           <ul>
+               <li><a href="#fruitsilike">Fruits I Like</a></li>
+               <li><a href="#activitiesilike">Activities I Like</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <article>
+       <header>
+           <hgroup>
+               <h1 id="fruitsilike">Fruits I Like</h1>
+               <h2>How I Learned Love Citrus</h2>
+           </hgroup>
+       </header>
+       <aside>
+           <h1>Why Fruits is Healthy</h1>
+           <section>
+               Here are three reason why everyone should eat more fruit:
+               <ol>
+                   <li>Fruit contains lots of vitamins</li>
+                   <li>Fruit is a source of fibre</li>
+                   <li>Fruit contains few calories</li>
+               </ol>
+           </section>
+       </aside>
+       I like apples and oranges.
+       <section>
+           <h1 id="morefruit">Additional fruits</h1>
+           I also liek banana, mangoes, cherries, apricots, plums,
+           peaches and grapes.
+           <section>
+               <h1>More information</h1>
+               You can see other fruits I like <a href="fruitlist.html">here</a>
+           </section>
+       </section>
+       <footer>
+           <nav>
+               More Information:
+               <a href="http://fruit.org">Learn More About Fruit</a>
+           </nav>
+       </footer>
+   </article>
+   <article>
+       <header>
+           <hgroup>
+               <h1 id="activitiesilike">Activities I Like</h1>
+               <h2>It hurts, but I keep doing it</h2>
+           </hgroup>
+       </header>
+       <section>
+           <p>
+               I also like to swim, cycle and run. I am aiming for my first
+               triuthlon, but it is hard work.
+           </p>
+           <h1 id="tritypes">Kinds of Trithlon</h1>
+           There are different kinds of trithlon - sprint, Olympic and so on.
+           <section>
+               <h1 iod="mytri">The kind of trithlon I am aiming for</h1>
+               I am aiming for Olympic, which consists of the following:
+               <ol>
+                   <li>1.5Km swim</li>
+                   <li>40Km cycle</li>
+                   <li>10km run</li>
+               </ol>
+           </section>
+       </section>
+       <footer>
+           <nav>
+               More Information:
+               <a href="http://trithlon.org">Learn More About Trirhlon</a>
+           </nav>
+       </footer>
+   </article>
+   <footer id="mainFooter">
+       &#169;2017, Yangyong. <a href="http://aprss.com">Visit Apress</a>
+   </footer>
+</body>
+</html>
