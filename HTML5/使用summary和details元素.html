@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Yangyong">
+    <meta name="description" content="A simpel example">
+    <title>使用summary和details元素</title>
+    <!--details 元素通常包含一个summary元素，summary元素的作用是为该详情区域生成
+    一个说明标签或者标题-->
+
+    <style type="text/css">
+        h1, h2, h3, article > footer { background: grey; color: white; }
+        hgroup > h1 {margin-bottom: 0; margin-top: 0}
+        hgroup > h2 { background: grey; color: white; font-size: 1em;
+                     margin-top: 0px; margin-bottom: 2px}
+        body > header  *,body > footer * { background: transparent; color:black; }
+        body > article > section,
+        body > article > section > section {margin-left: 10px; }
+        body > header {
+            border: medium solid black;padding-left: 5px; margin: 10px 0 10px 0;
+        }
+        article {border: thin black solid; paddign: 10px; margin-bottom: 5px}
+        details { border: solid thin black; padding: 5px}
+        details > summary { font-weight: bold}
+    </style>
+</head>
+<body>
+      <header>
+          <hgroup>
+              <h1>Things I like </h1>
+              <h2>by Yangyong</h2>
+          </hgroup>
+      </header>
+      <article>
+          <header>
+              <hgroup>
+                  <h1 id="activitiesilike">Activities I like</h1>
+                  <h2>It hurts, but I keep doing it</h2>
+              </hgroup>
+              <section>
+                  <p>I like to swim, cycle and run. I am in training for my first
+                   trithlon, but it is hard work.</p>
+                  <details>
+                      <!--浏览器提供了一个界面控件。他被激活的时候会展示并显示details元素的内容，
+                      当details元素折叠时，只有其summary元素的内容可见。要让页面一显示details元素
+                      就呈展开状态，需要使用它的open属性-->
+                      <summary>
+                          Kinds of Trithlon
+                      </summary>
+                      There are different kinds of trithlon - sprint, Olympic
+                      and so on.I am aiming for Olympic, which consists of the following:
+                      <ol>
+                          <li>1.5km swim</li>
+                          <li>40km cycle</li>
+                          <li>10km run</li>
+                      </ol>
+                  </details>
+              </section>
+          </header>
+      </article>
+</body>
+</html>
