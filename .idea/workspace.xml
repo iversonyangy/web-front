@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db4f-d9b0-4156-b4f6-aded24553af4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/为表格添加thead和tbody元素.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/用选择器美化按钮.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/用选择器美化按钮.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/chongdie/1.html" afterPath="$PROJECT_DIR$/canvas/重叠/1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/chongdie/script.js" afterPath="$PROJECT_DIR$/canvas/重叠/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/用选择器美化按钮.css" afterPath="$PROJECT_DIR$/css/用选择器美化按钮.css" />
     </list>
     <ignored path="web-front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,21 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="用选择器美化按钮.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="用选择器美化按钮.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/用选择器美化按钮.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="用选择器美化按钮.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="用选择器美化按钮.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/用选择器美化按钮.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -194,8 +190,8 @@
         <option value="$PROJECT_DIR$/HTML5/用table。tr和td元素制作表格.html" />
         <option value="$PROJECT_DIR$/HTML5/为表格添加thead和tbody元素.html" />
         <option value="$PROJECT_DIR$/HTML5/纯css3制作cssDock 导航效果.html" />
-        <option value="$PROJECT_DIR$/css/用选择器美化按钮.css" />
         <option value="$PROJECT_DIR$/HTML5/用选择器美化按钮.html" />
+        <option value="$PROJECT_DIR$/css/用选择器美化按钮.css" />
       </list>
     </option>
   </component>
@@ -244,8 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +266,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,12 +455,13 @@
       <workItem from="1510069555508" duration="251000" />
       <workItem from="1510562047666" duration="2034000" />
       <workItem from="1510670667403" duration="791000" />
-      <workItem from="1510839222858" duration="5118000" />
+      <workItem from="1510839222858" duration="5828000" />
+      <workItem from="1510924881429" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142503000" />
+    <option name="totallyTimeSpent" value="143266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,18 +878,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/用选择器美化按钮.css">
+    <entry file="file://$PROJECT_DIR$/HTML5/用选择器美化按钮.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/用选择器美化按钮.html">
+    <entry file="file://$PROJECT_DIR$/css/用选择器美化按钮.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
