@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS比较函数从大到小</title>
+</head>
+<body>
+    <script>
+        function compare(value1, value2) {
+            if (value1 < value2) {
+                return 1;
+                return -1;
+            } else {
+                return 0;
+            }
+        }
+
+        var values = [0, 1, 5, 10, 15];
+        values.sort(compare);
+        alert(values);
+    </script>
+</body>
+</html>
