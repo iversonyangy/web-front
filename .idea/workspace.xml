@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db4f-d9b0-4156-b4f6-aded24553af4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/使用JS计算N的阶乘.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5/使用JS算2的N次方.html" afterPath="$PROJECT_DIR$/HTML5/使用JS算2的N次方.html" />
     </list>
     <ignored path="web-front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,17 +36,27 @@
         <entry file="file://$PROJECT_DIR$/HTML5/利用目标伪类选择器制作手风琴特效.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="使用JS算2的N次方.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="使用JS算2的N次方.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/使用JS算2的N次方.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="213">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="使用JS计算N的阶乘.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML5/使用JS计算N的阶乘.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -92,16 +102,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="比较函数.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/比较函数.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JS比较函数.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/JS比较函数.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML5/contextmenu睡醒的使用.html" />
         <option value="$PROJECT_DIR$/HTML5/contenteditable元素的使用.html" />
         <option value="$PROJECT_DIR$/HTML5/使用document.implementation,hasFeature的方法.html" />
         <option value="$PROJECT_DIR$/HTML5/使用accesskey属性.html" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/HTML5/JS比较函数从大到小.html" />
         <option value="$PROJECT_DIR$/HTML5/利用目标伪类选择器制作手风琴特效.html" />
         <option value="$PROJECT_DIR$/HTML5/使用JS算2的N次方.html" />
+        <option value="$PROJECT_DIR$/HTML5/使用JS计算N的阶乘.html" />
       </list>
     </option>
   </component>
@@ -202,8 +202,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="6" />
+    <option name="x" value="8" />
+    <option name="y" value="14" />
     <option name="width" value="746" />
     <option name="height" value="603" />
   </component>
@@ -241,6 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,8 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,12 +472,15 @@
       <workItem from="1512307919907" duration="2741000" />
       <workItem from="1512397131140" duration="593000" />
       <workItem from="1512476003936" duration="2881000" />
-      <workItem from="1512570427761" duration="1674000" />
+      <workItem from="1512570427761" duration="2688000" />
+      <workItem from="1512652635411" duration="591000" />
+      <workItem from="1512701551711" duration="594000" />
+      <workItem from="1512703930998" duration="319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163914000" />
+    <option name="totallyTimeSpent" value="166432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,13 +564,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/在脚本中使用class 属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/简单表单示例.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -827,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,15 +892,23 @@
     <entry file="file://$PROJECT_DIR$/HTML5/利用目标伪类选择器制作手风琴特效.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/使用JS算2的N次方.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="213">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/使用JS计算N的阶乘.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
