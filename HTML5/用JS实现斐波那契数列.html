@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用JS实现斐波那契数列</title>
+</head>
+<body>
+      <script type="text/javascript">
+          var n = parseInt(window.prompt('inout'));
+
+          var first = 1,
+              second = 1,
+              third;
+
+          for(var i = 1; i <= n -2; i++) {
+              third = first + second;
+              first = second;
+              second = third;
+          }
+          document.write(third);
+      </script>
+</body>
+</html>
